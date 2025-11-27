@@ -97,6 +97,22 @@ body {
   .menu-horizontal li {
     border-bottom: 1px solid #ccc; /* Líneas separadoras */
   }
+
+  .productos-contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proposito-contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proposito-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .productos {
