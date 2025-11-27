@@ -78,6 +78,7 @@ body {
   .menu-toggle {
     display: block; /* Mostrar botón hamburguesa en móviles */
     color: black;
+    padding-right: 2rem;
   }
 
   .menu-horizontal {
