@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav class="header">
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img src="imagenes/logo.jpg" alt="logo" />
+      </a>
+      <!--Boton burger-->
+      <button class="menu-toggle" aria-labbel="abrir-menu">&#9776;</button>
+
+      <!--Menus-->
+      <ul class="menu-horizontal">
+        <li>
+          <a href="#">Que somos</a>
+          <ul class="menu-vertical">
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Proposito</a></li>
+            <li><a href="#">Vision y Mision</a></li>
+            <li><a href="#">Sedes</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contáctanos</a></li>
+        <li><a href="#">Ayuda</a></li>
+      </ul>
+    </nav>
+
+    <!--Seccion productos-->
+    <section class="productos">
+      <h2>Productos</h2>
+      <div class="productos-contenido">
+        <div class="productos-imagen">
+          <a href="#" class="imagen">
+            <img src="imagenes/libro.jpg" alt="imagen-libro" />
+          </a>
+        </div>
+        <div class="productos-texto">
+          <p>
+            Nuestra biblioteca fue fundada en 1937 y buscamos coleccionar toda
+            clase de libros para poder libremente prestar nuestro conocimiento
+            hacia las demas personas
+          </p>
+          <p>
+            Se aceptan entregas de libros para ser almacenados y prestados
+            libremente en nuestra biblioteca
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Seccion Proposito-->
+    <section class="proposito">
+      <h2>Proposito</h2>
+      <div class="proposito-contenido">
+        <div class="proposito-video">
+          <iframe
+            src="https://www.youtube.com/embed/p3bUvrd0xBs"
+            allowfullscreen
+            title="video de biblioteca"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+        <div class="proposito-texto">
+          <p>
+            Nuestro proposito es recolectar la maxima cantidad de informacion
+            posible. Ademas de difundirla con el mundo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion formulario-->
+    <section class="formulario-seccion">
+      <div class="formulario-contenido">
+        <h2>Formulario</h2>
+        <div class="formulario-texto1">
+          <p>Completa los siguientes campos</p>
+        </div>
+        <form class="formulario">
+          <!--Input-->
+          <div class="campos">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="ingrese nombre"
+            />
+            <!--Menu desplegable-->
+            <label for="identificacion">Identificacion</label>
+            <select name="identificacion" id="identificacion">
+              <option value="vacio">seleccione identificacion</option>
+              <option value="dni">Dni</option>
+              <option value="pasaporte">Pasaporte</option>
+            </select>
+
+            <label for="Pais">Pais</label>
+            <select name="pais" id="pais">
+              <option value="vacio">seleccione pais</option>
+              <option value="peru">Peru</option>
+              <option value="colombia">Colombia</option>
+              <option value="argentina">Argentina</option>
+            </select>
+            <!--Checkbox-->
+            <label for="preferencia">Preferencia de contacto</label>
+            <div class="checkboxes">
+              <label
+                ><input
+                  type="checkbox"
+                  name="preferencias"
+                  value="telefono"
+                />Telefono</label
+              >
+
+              <label
+                ><input
+                  type="checkbox"
+                  name="preferencias"
+                  value="email"
+                />Email</label
+              >
+            </div>
+            <!--Radio-->
+            <label>Sexo:</label>
+            <div class="radios">
+              <label
+                ><input
+                  type="radio"
+                  name="sexo"
+                  value="masculino"
+                />Masculino</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="sexo"
+                  value="femenino"
+                />Femenino</label
+              >
+            </div>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="imagenes/logo.jpg" alt="Logo" class="footer-logo" />
+            <p>Biblioteca</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="/Documentos/terminos-condiciones.pdf"
+              >Términos y Condiciones</a
+            >
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/cookies.pdf">Política de Cookies</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -130,7 +130,7 @@ body {
 }
 
 .formulario-seccion {
-  background-color: aqua;
+  background-color: rgb(46, 17, 209);
   padding: 40px;
   border: 3px;
   display: flex;
@@ -144,7 +144,7 @@ body {
 }
 
 .formulario-contenido {
-  background-color: rgb(88, 255, 152);
+  background-color: rgb(236, 163, 66);
   flex-direction: row;
   padding: 30px;
   border: 2px solid;
@@ -191,7 +191,7 @@ body {
   padding: 10px;
   margin: 0;
   border: 1px;
-  background-color: #dbb73e;
+  background-color: #e2dddd;
 }
 
 button {
