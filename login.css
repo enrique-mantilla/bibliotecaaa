@@ -28,6 +28,9 @@
   margin-bottom: 1.5625rem; /* 25px */
   color: #333;
   font-size: 1.8rem;
+
+  position: relative;
+  bottom: 0.5rem;
 }
 
 .login-box img {
