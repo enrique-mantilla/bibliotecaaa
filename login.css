@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 /* Contenedor principal: Centra el formulario */
 .login-container {
   display: flex;
@@ -22,9 +24,14 @@
 }
 
 .login-box h2 {
+  font-family: "Dancing Script", cursive;
   margin-bottom: 1.5625rem; /* 25px */
   color: #333;
   font-size: 1.8rem;
+}
+
+.login-box img {
+  width: 3rem;
 }
 
 /* División para agrupar Label e Input */
