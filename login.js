@@ -21,7 +21,7 @@ function validarLogin(event) {
     alert("Por favor, complete todos los campos del formulario");
   } else if (!validateEmail(email)) {
     event.preventDefault();
-    alert("Por favor, ingrese un correo valido");
+    alert("Por favor, ingrese un correo valido. No olvide el .com");
   } else {
     if (passwordInput.toLowerCase() === CLAVE_SECRETA) {
       alert("¡Acceso concedido! Bienvenido.");
